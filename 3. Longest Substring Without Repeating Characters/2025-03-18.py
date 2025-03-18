@@ -15,3 +15,4 @@ class Solution:
             else:
                 ans = max(ans, right-left+1)
             char_dic[s[right]] = right
+        return ans
